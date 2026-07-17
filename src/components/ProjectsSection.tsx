@@ -1,4 +1,4 @@
-import { QrCode, Cookie, Code2 } from "lucide-react";
+import { QrCode, Cookie, Code2, Mountain, UserRound, KanbanSquare } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import ProjectCard, { Project } from "@/components/ProjectCard";
 
@@ -32,6 +32,51 @@ const projects: Project[] = [
     ],
     icon: Cookie,
     gradient: "from-pink/70 via-violet/70 to-primary/70",
+  },
+  {
+    title: "DUKA Hiking & Travel",
+    description:
+      "Modern travel and tourism website for DUKA Hiking & Travel, showcasing Ethiopian hiking destinations, guided tours, travel news, and adventure experiences. Designed and developed by Firaol Kumssa.",
+    url: "https://duka-trails-explorer.firaol-kumssa.workers.dev/",
+    tags: ["React", "TanStack Start", "Tailwind CSS"],
+    features: [
+      "Curated Ethiopian destination showcase",
+      "Animated hiking trail & news section",
+      "Responsive photo gallery",
+      "Booking & contact flow",
+    ],
+    icon: Mountain,
+    gradient: "from-primary/70 via-violet/60 to-pink/60",
+  },
+  {
+    title: "Shewit Solomon — Portfolio",
+    description:
+      "Professional portfolio website for Shewit Solomon Aregay, showcasing her experience in civil engineering, business administration, project coordination, tourism, and humanitarian initiatives. Built and designed by Firaol Kumssa.",
+    url: "https://shewit-portfolio.firaol-kumssa.workers.dev/",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    features: [
+      "Multi-discipline experience showcase",
+      "Clean, professional presentation",
+      "Responsive, recruiter-friendly layout",
+      "Fast, optimized performance",
+    ],
+    icon: UserRound,
+    gradient: "from-violet/70 via-pink/60 to-primary/60",
+  },
+  {
+    title: "Taskmaster",
+    description:
+      "A modern project management and issue tracking application inspired by Linear, featuring Kanban boards, task management, analytics, and team collaboration. Designed and developed by Firaol Kumssa.",
+    url: "https://taskmaster.firaol-kumssa.workers.dev/",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    features: [
+      "Kanban-style task boards",
+      "Team collaboration tools",
+      "Analytics dashboard",
+      "Linear-inspired, minimal UI",
+    ],
+    icon: KanbanSquare,
+    gradient: "from-pink/70 via-primary/60 to-violet/60",
   },
   {
     title: "Portfolio Website",
